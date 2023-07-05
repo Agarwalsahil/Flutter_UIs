@@ -76,7 +76,7 @@ class _IntroScreenState extends State<IntroScreen>
                     ),
                     child: const CircleAvatar(
                       backgroundColor: Colors.black,
-                      radius: 80.0,
+                      radius: 70.0,
                       backgroundImage: AssetImage('assets/images/logo1.png'),
                     ),
                   ),
