@@ -171,7 +171,9 @@ class _HomePageState extends State<HomePage> {
         displayxo[2] == displayxo[6] &&
         displayxo[2] != '') {
       _showWinDialogueBox(displayxo[2]);
-    } else if (filledBox == 9) {
+    } 
+    
+    else if (filledBox == 9) {
       _showDrawDialogueBox();
     }
   }
